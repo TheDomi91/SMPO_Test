@@ -300,7 +300,7 @@ $(function() {
   		{ 
   			times[i] = +times[i]; 
   			
-  			themsg = usernamesDiss[i] + " Dissliked your post";
+  			themsg = usernamesDiss[i] + " Disliked your post";
 
   			setTimeout(function(themsg) {
   				that.text(parseInt(that.text()) + 1);
