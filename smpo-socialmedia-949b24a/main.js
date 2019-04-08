@@ -354,13 +354,13 @@ $(function() {
 	  	{
 		$(this).prev().text(parseInt($(this).prev().text()) + 1);
      	 //Like buttons can only be clicked once 
-	  	//$(this).attr("disabled", true);
+	  	$(this).attr("enabled", true);
 	  	//$('.btn-Disslike').attr("disabled", true);}
 	
 	else($('.btn-Disslike').on('click', function())
 	{
 				   $(this).prev().text(parseInt($(this).prev().text()) + 1);
-					//$(this).attr("disabled", true);
+					$(this).attr("enabled", true);
 					//$('.btn-like').attr("disabled", true);
 
 });
