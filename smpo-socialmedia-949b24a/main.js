@@ -348,6 +348,17 @@ $(function() {
 	  });
 	 
 
+//like or Dislike
+	  if ($('.btn-like').on('click', function())
+	  {$(this).prev().text(parseInt($(this).prev().text()) + 1);
+      //Like buttons can only be clicked once 
+	  $(this).attr("disabled", true);}
+	else($('.btn-Disslike').on('click', function())
+	{$(this).prev().text(parseInt($(this).prev().text()) + 1);
+      // Like buttons can only be clicked once
+	$(this).attr("disabled", true);});
+
+/*
     // Initialize like buttons
 	  $('.btn-like').on('click', function() {
 		  $(this).prev().text(parseInt($(this).prev().text()) + 1);
@@ -355,12 +366,13 @@ $(function() {
 		  $(this).attr("disabled", true);
 	  });
 	  
-	      // Initialize Disslike buttons
+	// Initialize Disslike buttons
 	  $('.btn-Disslike').on('click', function() {
 		  $(this).prev().text(parseInt($(this).prev().text()) + 1);
       // Like buttons can only be clicked once
 		  $(this).attr("disabled", true);
 	  });
+*/
 
     // Initalize Masonry plugin
     // For display of user and other players boxes in columns without gaps
