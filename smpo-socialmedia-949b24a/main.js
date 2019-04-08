@@ -282,7 +282,7 @@ $(function() {
   		{ 
   			times[i] = +times[i]; 
   			
-  			themsg = usernames[i] + " liked your post";
+  			themsg = usernames[i] + " Gefällt your post";
 
   			setTimeout(function(themsg) {
   				that.text(parseInt(that.text()) + 1);
@@ -293,7 +293,7 @@ $(function() {
 	  });
 	  
 	  
-    // When user receives Disslikes
+    // When user receives Dislikes
 	  $('.usersDisslikes').each(function() {
   		var that = $(this);
   		var usernamesDiss = $(this).data('usernamesDiss').split(",");
